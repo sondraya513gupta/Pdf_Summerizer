@@ -6,7 +6,7 @@ from tkinter import filedialog, messagebox
 import pyperclip
 from tkinter.ttk import Progressbar
 
-genai.configure(api_key="AIzaSyD4STHIxu6QbF0i0o9vUFkBR9dv7LiNMDs")
+genai.configure(api_key="your api key")
 
 def extract_text(filepath, progress_var):
     with open(filepath, 'rb') as pdf_file:
